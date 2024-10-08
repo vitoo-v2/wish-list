@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aaaaf55ac3415650fe2ebb2ed4013179" extends="x_1541069_wish_lis_wish_item" label="Wish List Alternatives" max_length="40" name="x_1541069_wish_lis_wish_list_alternatives" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Alternative Item" max_length="100" name="alternative_item" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Alternative Item Price" max_length="20" name="alternative_item_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternative URL" max_length="1024" name="alternative_url" type="url"/>
+    </element>
+</database>

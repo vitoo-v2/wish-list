@@ -10,32 +10,32 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>All</mobile_title>
+        <mobile_title>Wish List Alternatives</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_1541069_wish_lis_wish_item</name>
-        <order>3</order>
+        <name>x_1541069_wish_lis_wish_list_alternatives</name>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles/>
+        <roles>x_1541069_wish_lis.wish_list_alternatives_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-29 19:27:15</sys_created_on>
+        <sys_created_on>2024-10-07 02:25:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d3281c00c3811210fe2ebb2ed4013165</sys_id>
+        <sys_id>560bbd5ac3415650fe2ebb2ed40131dc</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>All Primary Wishes</sys_name>
+        <sys_name>Wish List Alternatives</sys_name>
         <sys_overrides/>
         <sys_package display_value="Wish List" source="x_1541069_wish_lis">cf175008c3411210fe2ebb2ed4013131</sys_package>
         <sys_policy/>
         <sys_scope display_value="Wish List">cf175008c3411210fe2ebb2ed4013131</sys_scope>
-        <sys_update_name>sys_app_module_d3281c00c3811210fe2ebb2ed4013165</sys_update_name>
+        <sys_update_name>sys_app_module_560bbd5ac3415650fe2ebb2ed40131dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-08 01:23:12</sys_updated_on>
+        <sys_updated_on>2024-10-07 07:52:28</sys_updated_on>
         <timeline_page/>
-        <title>All Primary Wishes</title>
+        <title>Wish List Alternatives</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

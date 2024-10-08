@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="45e7d88cc3411210fe2ebb2ed401317e" label="Wish Item" max_length="40" name="x_1541069_wish_lis_wish_item" type="collection">
+    <element audit="true" db_object_id="45e7d88cc3411210fe2ebb2ed401317e" label="Wish Item" max_length="40" name="x_1541069_wish_lis_wish_item" type="collection">
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
-        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="display_name" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Alternative Item Price" max_length="20" name="u_price_5" type="price"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternative Item" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternative Item URL" max_length="1024" name="u_url_8" type="url"/>
         <index name="index">
             <element name="requester"/>
         </index>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="display_name" read_only="true" type="string"/>
     </element>
 </database>
